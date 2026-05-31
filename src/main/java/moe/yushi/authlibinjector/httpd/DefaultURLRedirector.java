@@ -38,6 +38,7 @@ public class DefaultURLRedirector implements URLRedirector {
 		domainMapping.put("sessionserver.mojang.com", "sessionserver");
 		domainMapping.put("skins.minecraft.net", "skins");
 		domainMapping.put("api.minecraftservices.com", "minecraftservices");
+		domainMapping.put("signaling-afd.franchise.minecraft-services.net", "signaling");
 	}
 
 	@Override
